@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  Practica_Swift1
-//
-//  Created by Adelais Caulfield on 13/12/20.
-//
+
 
 import UIKit
 

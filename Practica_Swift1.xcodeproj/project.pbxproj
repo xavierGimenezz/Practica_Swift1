@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		61CEC44A25864BF800BB38F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC44925864BF800BB38F2 /* AppDelegate.swift */; };
 		61CEC44C25864BF800BB38F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC44B25864BF800BB38F2 /* SceneDelegate.swift */; };
-		61CEC44E25864BF800BB38F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC44D25864BF800BB38F2 /* ViewController.swift */; };
-		61CEC45125864BF800BB38F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC44F25864BF800BB38F2 /* Main.storyboard */; };
+		61CEC44E25864BF800BB38F2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC44D25864BF800BB38F2 /* SplashViewController.swift */; };
 		61CEC45325864BFC00BB38F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC45225864BFC00BB38F2 /* Assets.xcassets */; };
 		61CEC45625864BFC00BB38F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC45425864BFC00BB38F2 /* LaunchScreen.storyboard */; };
+		61CEC465258650FC00BB38F2 /* VillainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC464258650FC00BB38F2 /* VillainsViewController.swift */; };
+		61CEC4682586510500BB38F2 /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC4672586510500BB38F2 /* HeroesViewController.swift */; };
+		61CEC46B2586511200BB38F2 /* HeroeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC46A2586511200BB38F2 /* HeroeCellView.swift */; };
+		61CEC46E2586511700BB38F2 /* VillainCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC46D2586511700BB38F2 /* VillainCellView.swift */; };
+		61CEC4722586515A00BB38F2 /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC4712586515A00BB38F2 /* Villain.swift */; };
+		61CEC4752586516100BB38F2 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC4742586516100BB38F2 /* Heroe.swift */; };
+		61CEC4782586517100BB38F2 /* HeroeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC4772586517100BB38F2 /* HeroeRepository.swift */; };
+		61CEC47B2586517700BB38F2 /* VillainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC47A2586517700BB38F2 /* VillainRepository.swift */; };
+		61CEC480258652F200BB38F2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEC47F258652F200BB38F2 /* DetailViewController.swift */; };
+		61CEC4832586561A00BB38F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC4822586561A00BB38F2 /* Main.storyboard */; };
+		61CEC48B25865C2D00BB38F2 /* KimetsuHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC48A25865C2D00BB38F2 /* KimetsuHome.storyboard */; };
+		61CEC497258661CD00BB38F2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CEC496258661CD00BB38F2 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61CEC44625864BF800BB38F2 /* Practica_Swift1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica_Swift1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CEC44925864BF800BB38F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61CEC44B25864BF800BB38F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61CEC44D25864BF800BB38F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		61CEC45025864BF800BB38F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61CEC44D25864BF800BB38F2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		61CEC45225864BFC00BB38F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61CEC45525864BFC00BB38F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61CEC45725864BFC00BB38F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CEC464258650FC00BB38F2 /* VillainsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainsViewController.swift; sourceTree = "<group>"; };
+		61CEC4672586510500BB38F2 /* HeroesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		61CEC46A2586511200BB38F2 /* HeroeCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroeCellView.swift; sourceTree = "<group>"; };
+		61CEC46D2586511700BB38F2 /* VillainCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainCellView.swift; sourceTree = "<group>"; };
+		61CEC4712586515A00BB38F2 /* Villain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
+		61CEC4742586516100BB38F2 /* Heroe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		61CEC4772586517100BB38F2 /* HeroeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroeRepository.swift; sourceTree = "<group>"; };
+		61CEC47A2586517700BB38F2 /* VillainRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillainRepository.swift; sourceTree = "<group>"; };
+		61CEC47F258652F200BB38F2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		61CEC4822586561A00BB38F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		61CEC48A25865C2D00BB38F2 /* KimetsuHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KimetsuHome.storyboard; sourceTree = "<group>"; };
+		61CEC496258661CD00BB38F2 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,66 @@
 		61CEC44825864BF800BB38F2 /* Practica_Swift1 */ = {
 			isa = PBXGroup;
 			children = (
-				61CEC44925864BF800BB38F2 /* AppDelegate.swift */,
-				61CEC44B25864BF800BB38F2 /* SceneDelegate.swift */,
-				61CEC44D25864BF800BB38F2 /* ViewController.swift */,
-				61CEC44F25864BF800BB38F2 /* Main.storyboard */,
-				61CEC45225864BFC00BB38F2 /* Assets.xcassets */,
-				61CEC45425864BFC00BB38F2 /* LaunchScreen.storyboard */,
+				61CEC47D258651AD00BB38F2 /* Views */,
+				61CEC4702586515100BB38F2 /* Model */,
+				61CEC45F2586508100BB38F2 /* Controllers */,
+				61CEC45E25864C1000BB38F2 /* App */,
 				61CEC45725864BFC00BB38F2 /* Info.plist */,
 			);
 			path = Practica_Swift1;
+			sourceTree = "<group>";
+		};
+		61CEC45E25864C1000BB38F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC45225864BFC00BB38F2 /* Assets.xcassets */,
+				61CEC44925864BF800BB38F2 /* AppDelegate.swift */,
+				61CEC44B25864BF800BB38F2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61CEC45F2586508100BB38F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC44D25864BF800BB38F2 /* SplashViewController.swift */,
+				61CEC464258650FC00BB38F2 /* VillainsViewController.swift */,
+				61CEC4672586510500BB38F2 /* HeroesViewController.swift */,
+				61CEC47F258652F200BB38F2 /* DetailViewController.swift */,
+				61CEC4602586509000BB38F2 /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		61CEC4602586509000BB38F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC46A2586511200BB38F2 /* HeroeCellView.swift */,
+				61CEC46D2586511700BB38F2 /* VillainCellView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		61CEC4702586515100BB38F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC4712586515A00BB38F2 /* Villain.swift */,
+				61CEC4742586516100BB38F2 /* Heroe.swift */,
+				61CEC4772586517100BB38F2 /* HeroeRepository.swift */,
+				61CEC47A2586517700BB38F2 /* VillainRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		61CEC47D258651AD00BB38F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61CEC4822586561A00BB38F2 /* Main.storyboard */,
+				61CEC496258661CD00BB38F2 /* Home.storyboard */,
+				61CEC45425864BFC00BB38F2 /* LaunchScreen.storyboard */,
+				61CEC48A25865C2D00BB38F2 /* KimetsuHome.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CEC48B25865C2D00BB38F2 /* KimetsuHome.storyboard in Resources */,
+				61CEC497258661CD00BB38F2 /* Home.storyboard in Resources */,
 				61CEC45625864BFC00BB38F2 /* LaunchScreen.storyboard in Resources */,
+				61CEC4832586561A00BB38F2 /* Main.storyboard in Resources */,
 				61CEC45325864BFC00BB38F2 /* Assets.xcassets in Resources */,
-				61CEC45125864BF800BB38F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +212,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CEC44E25864BF800BB38F2 /* ViewController.swift in Sources */,
+				61CEC46E2586511700BB38F2 /* VillainCellView.swift in Sources */,
+				61CEC465258650FC00BB38F2 /* VillainsViewController.swift in Sources */,
+				61CEC44E25864BF800BB38F2 /* SplashViewController.swift in Sources */,
+				61CEC480258652F200BB38F2 /* DetailViewController.swift in Sources */,
+				61CEC4782586517100BB38F2 /* HeroeRepository.swift in Sources */,
+				61CEC46B2586511200BB38F2 /* HeroeCellView.swift in Sources */,
 				61CEC44A25864BF800BB38F2 /* AppDelegate.swift in Sources */,
+				61CEC4752586516100BB38F2 /* Heroe.swift in Sources */,
 				61CEC44C25864BF800BB38F2 /* SceneDelegate.swift in Sources */,
+				61CEC4682586510500BB38F2 /* HeroesViewController.swift in Sources */,
+				61CEC47B2586517700BB38F2 /* VillainRepository.swift in Sources */,
+				61CEC4722586515A00BB38F2 /* Villain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		61CEC44F25864BF800BB38F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61CEC45025864BF800BB38F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		61CEC45425864BFC00BB38F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
